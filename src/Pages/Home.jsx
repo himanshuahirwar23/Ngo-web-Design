@@ -8,12 +8,23 @@ import RecentCauses from '../Pages/RecentCauses'
 import Page2 from '../Pages/Page2'
 import Footer from '../Pages/Footer'
 import Dashboard from '../Pages/Dashboard'
+import OfficeBearers from './Governing Body/OfficeBearers'
+import SanobarProfile from './Governing Body/SanobarProfile'
+import SaleemProfile from './Governing Body/SaleemProfile'
+import MoinProfile from './Governing Body/MoinProfile'
+import MohdProfile from './Governing Body/MohdProfile'
 
 const Home = () => {
   return (
 
     <div>
       <div className=' w-full h-screen '>
+
+      {/* <OfficeBearers></OfficeBearers> */}
+      {/* <SanobarProfile></SanobarProfile> */}
+      {/* <SaleemProfile></SaleemProfile> */}
+      {/* <MoinProfile></MoinProfile> */}
+      {/* <MohdProfile></MohdProfile> */}
         <Navbar></Navbar>
         <Banner></Banner>
         <Testinomial></Testinomial>
@@ -23,6 +34,7 @@ const Home = () => {
         <Page2></Page2>
         <Dashboard></Dashboard>
         <Footer></Footer>
+        
     </div>
     </div>
   )
