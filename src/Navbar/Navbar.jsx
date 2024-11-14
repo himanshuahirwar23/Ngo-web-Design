@@ -1,12 +1,17 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+import { IoIosArrowDown } from "react-icons/io";
+
 
 const Navbar = () => {
   return (
     <div className='w-full h-20 bg-blue-200 flex justify-center items-center '>
         <ul className='flex justify-between items-center gap-8 text-[15px] '>
-            <li>Home</li>
-            <li>About</li>
-            <li>Governing Body</li>
+           <NavLink to='/'> <li>Home</li></NavLink>
+          
+            <NavLink to='/about'><li>About</li></NavLink>
+          <NavLink>  <li className='flex items-center gap-2'>Governing Body <IoIosArrowDown />
+            </li> </NavLink>
             <li>Program</li>
             <li>Gallery</li>
             <li>Membership</li>

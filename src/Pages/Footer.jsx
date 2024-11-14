@@ -32,15 +32,16 @@ const Footer = () => {
               Subscribe
             </button>
           </div>
-          <p className="text-sm mt-2">©logo | All rights reserved</p>
+          <p className="text-sm mt-10">©logo | All rights reserved</p>
+          
           
         </div>
         </div>
 
         <div className="flex flex-row md:flex-row justify-between text-center md:text-left space-y-6 md:space-y-0 md:space-x-12 mt-[65px]    md:mb-0">
           <div>
-            <h4 className="text-lg  font-semibold mb-2">Programs</h4>
-            <ul className='leading-10	'>
+            <h4 className="text-sm  font-semibold mb-2">Programs</h4>
+            <ul className='text-sm leading-10	'>
               <li>Educational Guidance</li>
               <li>Skill Development</li>
               <li>Scholarship</li>
@@ -48,8 +49,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="text-lg font-semibold mb-2">Platform</h4>
-            <ul className='leading-10	'>
+            <h4 className="text-sm font-semibold mb-2">Platform</h4>
+            <ul className='text-sm leading-10	'>
               <li>Home</li>
               <li>About Us</li>
               <li>Gallery</li>
@@ -58,8 +59,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="text-lg font-semibold mb-2">Contact</h4>
-            <ul className='leading-10'>
+            <h4 className=" text-sm font-semibold mb-2">Contact</h4>
+            <ul className=' text-sm leading-10'>
               <li>New Delhi - 110095</li>
               <li>+91 9876543210</li>
               <li>qureshconference@gmail.com</li>
@@ -69,6 +70,8 @@ const Footer = () => {
 
         
       </div>
+<div className='w-full bg-black h-[1px] mt-4 z-10'></div>
+
     </footer>
     </div>
   );

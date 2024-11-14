@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './Pages/Home'
 import { Route, Routes } from 'react-router-dom'
+import About from './Pages/About/About'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <Routes>
 
      <Route exact path="/" element={<Home></Home>} />
+     <Route exact path="/about" element={<About></About>} />
     </Routes>
        
       
