@@ -3,17 +3,19 @@ import React from 'react';
 const Footer = () => {
   return (
     <div>
-       <div className="text-center mb-[-88px]">
-        <div className=" bg-cover bg-center 	 text-white h-[30vh] w-[60vw]  inline-block"
-        style={{ backgroundImage: `url(Footerframe.png)`,borderRadius:`20px` }}>
+       <div className="text-center  mb-[-115px]">
+        <div className=" text-white  bg-cover	 h-[40vh] w-[86vw]   inline-block"
+        style={{ backgroundImage: `url(Footerframe.png)`,
+         }}
+        >
+          <div className='w-[400px] ml-[26vw] items-center mt-6  h-[182px]  '>
+            <h1 className='text-[32px] font-semibold'>Start Contributing for <br /> better tomorrow</h1>
+            <button className='px-8 bg-white mt-5 text-[#6b61ee] py-3 rounded-md'>Donate Now</button>
+          </div>
 
-          <h2 className="text-2xl font-semibold"></h2>
-          <button className="mt-[95px] bg-white text-[#4f46e5] px-4 py-2 rounded-lg font-medium">
-            Donate Now
-          </button>
         </div>
       </div>
-    <footer className="bg-[#eaebfe] py-10 px-6">
+    <footer className="bg-[#eaebfe] py-20 px-6">
      
 
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start px-6">
@@ -38,7 +40,7 @@ const Footer = () => {
         </div>
         </div>
 
-        <div className="flex flex-row md:flex-row justify-between text-center md:text-left space-y-6 md:space-y-0 md:space-x-12 mt-[65px]    md:mb-0">
+        <div className="flex mr-[49px] flex-row md:flex-row justify-between text-center md:text-left space-y-6 md:space-y-0 md:space-x-12 mt-[65px]    md:mb-0">
           <div>
             <h4 className="text-sm  font-semibold mb-2">Programs</h4>
             <ul className='text-sm leading-10	'>
@@ -63,14 +65,15 @@ const Footer = () => {
             <ul className=' text-sm leading-10'>
               <li>New Delhi - 110095</li>
               <li>+91 9876543210</li>
-              <li>qureshconference@gmail.com</li>
+              <li>conference@gmail.com</li>
             </ul>
           </div>
         </div>
 
         
       </div>
-<div className='w-full bg-black h-[1px] mt-4 z-10'></div>
+<div className='w-full bg-black h-[.06px] mt-4 z-10'></div>
+
 
     </footer>
     </div>

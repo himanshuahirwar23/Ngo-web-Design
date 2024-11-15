@@ -13,6 +13,7 @@ import SanobarProfile from './Governing Body/SanobarProfile'
 import SaleemProfile from './Governing Body/SaleemProfile'
 import MoinProfile from './Governing Body/MoinProfile'
 import MohdProfile from './Governing Body/MohdProfile'
+import GoverningCommunity from './Governing Body/GoverningCommunity'
 
 const Home = () => {
   return (
@@ -25,13 +26,14 @@ const Home = () => {
       {/* <SaleemProfile></SaleemProfile> */}
       {/* <MoinProfile></MoinProfile> */}
       {/* <MohdProfile></MohdProfile> */}
+      {/* <GoverningCommunity></GoverningCommunity> */}
         <Navbar></Navbar>
         <Banner></Banner>
         <Testinomial></Testinomial>
         <Page1></Page1>
         <Showcase></Showcase>
         <RecentCauses></RecentCauses>
-        <Page2></Page2>
+        {/* <Page2></Page2> */}
         <Dashboard></Dashboard>
         <Footer></Footer>
         

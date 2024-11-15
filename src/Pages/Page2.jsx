@@ -45,11 +45,13 @@ export default function Page2() {
           {testimonials.map((testimonial, index) => (
             <div
               key={testimonial.id}
-              className={`flex flex-col bg-white rounded-lg shadow-md p-6 max-w-xs transition-opacity duration-300 ${
+              className={` flex flex-col bg-white rounded-lg shadow-md  max-w-xs transition-opacity duration-300 ${
                 index === currentIndex ? 'opacity-100' : 'opacity-0 pointer-events-none'
               }`}
             >
-              <div className="text-purple-500 text-3xl mb-4">&ldquo;</div>
+              <div className=" w-5 h-5 mb-4">
+                <img src="2.png" alt="" />
+              </div>
               <p className="text-gray-600 mb-6">{testimonial.text}</p>
               <div className="flex items-center gap-4">
                 <img src={testimonial.img} alt={testimonial.name} className="w-12 h-12 rounded-full object-cover" />

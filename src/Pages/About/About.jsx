@@ -10,8 +10,13 @@ const About = () => {
   return (
     <div>
         <Navbar></Navbar>
-    <div className='mb-10'>
-        <img src="about.png" alt="" />
+    <div className='w-full h-[362px] bg-center	flex items-center justify-center  mb-24'
+    style={{ backgroundImage: `url(about.png)` }}>
+      <div className='text-white leading-10  pt-12 w-[230px] h-[200px] '>
+        <p>Home / About us</p> 
+        
+        <h1 className=' text-5xl font-semibold'>About Us</h1>
+      </div>
     </div>
     {/* <Page1></Page1> */}
     < Page3></Page3>
