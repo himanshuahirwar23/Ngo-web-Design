@@ -20,7 +20,6 @@ const Footer = () => {
 
       <div className=" flex flex-col md:flex-row justify-between items-center md:items-start px-6">
         <div className=" flex flex-col mt-[10vw] ml-11 items-center md:items-start text-center md:text-left ">
-          {/* <img src="/path/to/logo.png" alt="Quresh Conference Logo" className="h-20 mb-4" /> */}
           <h3 className="text-lg pb-2 font-medium">QURESH CONFERENCE (Regd.)</h3>
           <p>(A SOCIAL ORGANISATION OF QURESH <br /> COMMUNITY IN INDIA)</p>
           <div className="text-center md:text-left">

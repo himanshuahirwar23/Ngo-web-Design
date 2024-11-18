@@ -88,11 +88,15 @@ const Navbar = () => {
           <li>Membership</li>
         </NavLink>
         <li>Annual Reports</li>
-        <li>Contact Us</li>
+        <NavLink to="contact">
+          <li>Contact Us</li>
+        </NavLink>
       </ul>
+      <NavLink to="donate">
       <button className="bg-blue-500 text-white px-5 py-2 ml-20 rounded-md">
         Donate Now
       </button>
+      </NavLink>
     </div>
   );
 };

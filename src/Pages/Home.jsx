@@ -21,12 +21,7 @@ const Home = () => {
     <div>
       <div className=' w-full h-screen '>
 
-      {/* <OfficeBearers></OfficeBearers> */}
-      {/* <SanobarProfile></SanobarProfile> */}
-      {/* <SaleemProfile></SaleemProfile> */}
-      {/* <MoinProfile></MoinProfile> */}
-      {/* <MohdProfile></MohdProfile> */}
-      {/* <GoverningCommunity></GoverningCommunity> */}
+      
         <Navbar></Navbar>
         <Banner></Banner>
         <Testinomial></Testinomial>

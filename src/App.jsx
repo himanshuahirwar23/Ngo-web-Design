@@ -15,6 +15,8 @@ import Scholarship from './Pages/Programs/Scholarship'
 import Quresh from './Pages/Programs/Quresh'
 import PhotoGallery from './Pages/Gallery/PhotoGallery'
 import Membership from './Pages/Membership/Membership'
+import ContactUs from './Pages/Conatct us/ContactUs'
+import DonateNow from './Pages/Donate Now/DonateNow'
 
 function App() {
 
@@ -23,6 +25,7 @@ function App() {
     <Routes>
 
      <Route exact path="/" element={<Home></Home>} />
+     <Route exact path="/donate" element={<DonateNow></DonateNow>} />
      <Route exact path="/about" element={<About></About>} />
      <Route exact path="/office" element={<OfficeBearers></OfficeBearers>} />
      <Route exact path="/governing" element={<GoverningCommunity></GoverningCommunity>} />
@@ -36,7 +39,8 @@ function App() {
      <Route exact path="/scholarship" element={<Scholarship></Scholarship>} />
      <Route exact path="/quresh" element={<Quresh></Quresh>} />
      <Route exact path="/membership" element={<Membership></Membership>} />
-    </Routes>
+     <Route exact path="/contact" element={<ContactUs></ContactUs>} /></Routes>
+     
        
       
     </>
