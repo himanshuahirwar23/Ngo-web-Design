@@ -9,13 +9,13 @@ const EducationGudiance = () => {
       <Navbar />
 
       <div
-        className="w-full h-[322px] bg-center	flex items-center justify-center  "
+        className="w-full h-[322px]  bg-center	flex items-center justify-center  "
         style={{ backgroundImage: `url(governing.png)` }}
       >
-        <div className="text-white leading-10  pt-12  w-[600px] h-[200px] ">
+        <div className="text-white  leading-10 text-center  pt-12   h-[200px] ">
           <p>Home / Programs</p>
 
-          <h1 className=" text-5xl font-semibold">Education Guidance</h1>
+          <h1 className=" text-5xl text-center font-semibold">Education Guidance</h1>
         </div>
       </div>
       <div className="  w-full px-24  py-20">
@@ -168,6 +168,7 @@ const EducationGudiance = () => {
                   Need-based grants for students facing financial hardship.
                 </li>
               </ul>
+              
               
               
             </div>

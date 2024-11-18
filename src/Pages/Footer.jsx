@@ -8,9 +8,9 @@ const Footer = () => {
         style={{ backgroundImage: `url(Footerframe.png)`,
          }}
         >
-          <div className='w-[400px] ml-[26vw] items-center mt-6  h-[182px]  '>
-            <h1 className='text-[32px] font-semibold'>Start Contributing for <br /> better tomorrow</h1>
-            <button className='px-8 bg-white mt-5 text-[#6b61ee] py-3 rounded-md'>Donate Now</button>
+          <div className='w-[400px] ml-[26vw] items-center mt-9  h-[182px]  '>
+            <h1 className='text-[30px] font-semibold'>Start Contributing for  better tomorrow</h1>
+            <button className='px-6 bg-white mt-5 text-[#6b61ee] py-2 rounded-md'>Donate Now</button>
           </div>
 
         </div>
@@ -18,8 +18,8 @@ const Footer = () => {
     <footer className="bg-[#eaebfe] py-20 px-6">
      
 
-      <div className="flex flex-col md:flex-row justify-between items-center md:items-start px-6">
-        <div className="flex flex-col mt-[10vw] items-center md:items-start text-center md:text-left ">
+      <div className=" flex flex-col md:flex-row justify-between items-center md:items-start px-6">
+        <div className=" flex flex-col mt-[10vw] ml-11 items-center md:items-start text-center md:text-left ">
           {/* <img src="/path/to/logo.png" alt="Quresh Conference Logo" className="h-20 mb-4" /> */}
           <h3 className="text-lg pb-2 font-medium">QURESH CONFERENCE (Regd.)</h3>
           <p>(A SOCIAL ORGANISATION OF QURESH <br /> COMMUNITY IN INDIA)</p>

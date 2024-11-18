@@ -79,7 +79,8 @@ const Navbar = () => {
   </Dropdown>
             {/* <NavLink>  <li className='flex items-center gap-2'>Programs <IoIosArrowDown />
             </li> </NavLink> */}
-            <li>Gallery</li>
+            <NavLink to="/gallery">
+            <li>Gallery</li></NavLink>
             <li>Membership</li>
             <li>Annual Reports</li>
             <li>Contact Us</li>
