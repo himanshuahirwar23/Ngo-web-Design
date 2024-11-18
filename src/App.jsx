@@ -14,6 +14,7 @@ import SkillDevelopment from './Pages/Programs/SkillDevelopment'
 import Scholarship from './Pages/Programs/Scholarship'
 import Quresh from './Pages/Programs/Quresh'
 import PhotoGallery from './Pages/Gallery/PhotoGallery'
+import Membership from './Pages/Membership/Membership'
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
      <Route exact path="/skill" element={<SkillDevelopment></SkillDevelopment>} />
      <Route exact path="/scholarship" element={<Scholarship></Scholarship>} />
      <Route exact path="/quresh" element={<Quresh></Quresh>} />
+     <Route exact path="/membership" element={<Membership></Membership>} />
     </Routes>
        
       
