@@ -13,10 +13,10 @@ import EducationGudiance from './Pages/Programs/EducationGudiance'
 import SkillDevelopment from './Pages/Programs/SkillDevelopment'
 import Scholarship from './Pages/Programs/Scholarship'
 import Quresh from './Pages/Programs/Quresh'
-import PhotoGallery from './Pages/Gallery/PhotoGallery'
 import Membership from './Pages/Membership/Membership'
 import ContactUs from './Pages/Conatct us/ContactUs'
 import DonateNow from './Pages/Donate Now/DonateNow'
+import Gallery from './Pages/Gallery/Gallery'
 
 function App() {
 
@@ -29,7 +29,7 @@ function App() {
      <Route exact path="/about" element={<About></About>} />
      <Route exact path="/office" element={<OfficeBearers></OfficeBearers>} />
      <Route exact path="/governing" element={<GoverningCommunity></GoverningCommunity>} />
-     <Route exact path="/gallery" element={<PhotoGallery></PhotoGallery>} />
+     <Route exact path="/gallery" element={<Gallery></Gallery>} />
      <Route exact path="/saleem" element={<SaleemProfile></SaleemProfile>} />
      <Route exact path="/sanobar" element={<SanobarProfile></SanobarProfile>} />
      <Route exact path="/moin" element={<MoinProfile></MoinProfile>} />
