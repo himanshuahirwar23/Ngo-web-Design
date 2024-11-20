@@ -14,9 +14,9 @@ import SkillDevelopment from './Pages/Programs/SkillDevelopment'
 import Scholarship from './Pages/Programs/Scholarship'
 import Quresh from './Pages/Programs/Quresh'
 import Membership from './Pages/Membership/Membership'
-import ContactUs from './Pages/Conatct us/ContactUs'
 import DonateNow from './Pages/Donate Now/DonateNow'
 import Gallery from './Pages/Gallery/Gallery'
+import ContactUs from './Pages/ConatctUs/ContactUs'
 
 function App() {
 

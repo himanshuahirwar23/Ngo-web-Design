@@ -93,7 +93,7 @@ const Navbar = () => {
         </NavLink>
       </ul>
       <NavLink to="donate">
-      <button className="bg-blue-500 text-white px-5 py-2 ml-20 rounded-md">
+      <button className="bg-blue-600 hover:bg-blue-700 transition text-white px-5 py-2 ml-20 rounded-md">
         Donate Now
       </button>
       </NavLink>
