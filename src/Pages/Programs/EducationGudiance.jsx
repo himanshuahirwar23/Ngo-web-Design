@@ -43,7 +43,7 @@ const EducationGudiance = () => {
           </div>
         </div>
         <div className="  mt-14">
-          <h1 className="w-[20vw] px-4 rounded-sm py-4 bg-[#b0b8ff] text-[#5449eb] font-semibold">
+          <h1 className="w-[20vw] text-center px-4 rounded-sm py-4 bg-[#b0b8ff] text-[#5449eb] font-semibold">
             Objectives
           </h1>
           <ul className="w-[40vw] text-start mt-5    ">
