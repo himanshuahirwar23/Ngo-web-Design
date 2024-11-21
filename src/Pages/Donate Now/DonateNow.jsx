@@ -34,7 +34,6 @@ const DonateNow = () => {
             All donations are eligible for tax benefit under 80G of Income Tax Act.
           </h1>
 
-          {/* Donation Cards */}
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             {profiles.map((profile, index) => (
               <div
@@ -60,8 +59,8 @@ const DonateNow = () => {
             ))}
           </div>
 
-          {/* Payment Details */}
-          <div className="mt-10">
+          <div className='flex py-10 '>
+          <div className=" w-[50vw] ">
             <h2 className="text-lg font-semibold text-gray-700">Cheque Payment</h2>
             <p className="mt-2 text-sm text-gray-600">
               Cheques or Bank Drafts should be given in the name of{" "}
@@ -112,6 +111,11 @@ const DonateNow = () => {
                 - 110001
               </li>
             </ul>
+          </div>
+          <div className='w-[40vw]'>
+            <img src="barcode.png" alt="" />
+
+          </div>
           </div>
         </div>
         <Dashboard />

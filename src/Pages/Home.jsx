@@ -21,7 +21,6 @@ const Home = () => {
     <div>
       <div className=' w-full h-screen '>
 
-      
         <Navbar></Navbar>
         <Banner></Banner>
         <Testinomial></Testinomial>

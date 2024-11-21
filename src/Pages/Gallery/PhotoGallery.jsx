@@ -2,10 +2,8 @@ import React from "react";
 import Navbar from "../../Navbar/Navbar";
 import Dashboard from "../Dashboard";
 import Footer from "../Footer";
-import Card1 from "./Card1";
 
-const Gallery = () => {
-  
+const PhotoGallery = () => {
   const cards = [
     { image: "Frame 1401.png" },
     { image: "photo2.png" },
@@ -20,8 +18,6 @@ const Gallery = () => {
 
   return (
     <div className="overflow-hidden">
-      {/* <Card1></Card1> */}
-
       <Navbar />
       <div
         className="w-full min-h-[50vh] md:min-h-[60vh] bg-center bg-cover flex items-center justify-center"
@@ -58,7 +54,7 @@ const Gallery = () => {
               </div>
             ))}
           
-          <div className="flex py-5 w-[84vw]   justify-center">
+          <div className="flex justify-center mt-8">
             <button className="px-6 py-3 rounded-md text-[#6c62ee] shadow-lg">
               Load more
             </button>
@@ -72,4 +68,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default PhotoGallery;

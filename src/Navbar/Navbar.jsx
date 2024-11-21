@@ -31,10 +31,10 @@ const programs = [
     label: <a href="scholarship">Scholarship</a>,
     key: "2",
   },
-  {
-    label: <a href="quresh">Quresh Matrimony</a>,
-    key: "3",
-  },
+  // {
+  //   label: <a href="quresh">Quresh Matrimony</a>,
+  //   key: "3",
+  // },
   {
     type: "divider",
   },
@@ -87,15 +87,17 @@ const Navbar = () => {
         <NavLink to="/membership">
           <li>Membership</li>
         </NavLink>
-        <li>Annual Reports</li>
-        <NavLink to="contact">
+        <NavLink to="/annual">
+          <li>Annual Reports</li>
+        </NavLink>
+        <NavLink to="/contact">
           <li>Contact Us</li>
         </NavLink>
       </ul>
-      <NavLink to="donate">
-      <button className="bg-blue-600 hover:bg-blue-700 transition text-white px-5 py-2 ml-20 rounded-md">
-        Donate Now
-      </button>
+      <NavLink to="/donate">
+        <button className="bg-blue-600 hover:bg-blue-700 transition text-white px-5 py-2 ml-20 rounded-md">
+          Donate Now
+        </button>
       </NavLink>
     </div>
   );

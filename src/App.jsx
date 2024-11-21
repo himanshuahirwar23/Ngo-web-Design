@@ -17,6 +17,7 @@ import Membership from './Pages/Membership/Membership'
 import DonateNow from './Pages/Donate Now/DonateNow'
 import Gallery from './Pages/Gallery/Gallery'
 import ContactUs from './Pages/ConatctUs/ContactUs'
+import AnnualReports from './Pages/Annual Reports/AnnualReports'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
     <Routes>
 
      <Route exact path="/" element={<Home></Home>} />
+     <Route exact path="/annual" element={<AnnualReports></AnnualReports>} />
      <Route exact path="/donate" element={<DonateNow></DonateNow>} />
      <Route exact path="/about" element={<About></About>} />
      <Route exact path="/office" element={<OfficeBearers></OfficeBearers>} />
@@ -39,8 +41,8 @@ function App() {
      <Route exact path="/scholarship" element={<Scholarship></Scholarship>} />
      <Route exact path="/quresh" element={<Quresh></Quresh>} />
      <Route exact path="/membership" element={<Membership></Membership>} />
-     <Route exact path="/contact" element={<ContactUs></ContactUs>} /></Routes>
-     
+     <Route exact path="/contact" element={<ContactUs></ContactUs>} />
+     </Routes>
        
       
     </>
